@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MortgEdge</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="./"><span>Mortg</span><span class="edge">Edge</span></a>
+    </div>
+    <nav class="navbar">
+      <a href="./individuals.html">For Individuals</a>
+      <a href="./investments.html">Investments</a>
+      <a href="./business.html">For Business</a>
+      <a href="./pricing.html">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <section id="home">
+    <div class="hero home">
+      <h1>Unlock Your Dream Home: Plan Early, Save Smarter, Own Sooner</h1>
+      <p>MortgEdge helps you save and invest for upfront home costs through workplace benefits, while helping businesses attract and retain top talent.</p>
+    </div>
+    <div class="boxes">
+      <div class="box left-box">
+        <h1>Get Started</h1>
+        <h3>Take the first step to becoming a homeowner today</h3>
+        <div class="button-container block-container">
+          <button class="full-width-button navy-btn">Open an Individual Account</button>
+          <button class="full-width-button sky-btn">Mortgage For Employers</button>
+        </div>
+      </div>
+      <div class="box right-box">
+        <div><h2>The "401(K) for Homeownership"</h2></div>
+        <img class="full-width" src="./images/mobile2.png" alt="image of 2 mobile phone showing saving screens" />
+      </div>
+    </div>
+  </section>
+
+
+  <section id="seed">
+    <div class="hero">
+      <h1>Automate and Grow Your Home Savings</h1>
+    </div>
+    <div class="hero">
+      <div class="boxes">
+        <div class="box left-box">
+          <h3 class="highlight">Smart Saver</h3>
+          <p>Compound your savings with an APY 8x the national average with our <strong>high-yield savings</strong> account</p>
+
+          <h3 class="highlight">Informed Investor</h3>
+          <p>Choose between a <strong>self-directed</strong> investment portfolio or <strong>guided</strong> portfolio to accelerate your savings</p>
+          
+        </div>
+        <div class="box right-box">
+          <h2 class="title">Set-up recurring or one-time contributions. Seamless transfers</h2>
+          <img class="seed-img" src="./images/seed.png" alt="image of dashboard" />
+          <div class="button-container jump50">
+              <button class="large-button navy-btn left-btn">Open Account</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section id="mission">
+    <div class="hero mission">
+      <h1>Our Mission</h1>
+      <p>
+        Restore confidence in the american dream by equipping individuals with the financial resources to pave their path to homeownership
+      </p>
+    </div>
+    <div>
+      <div id="difficulties" class="hero">
+        <h1>Owning a home is becoming increasingly difficult...</h1>
+        <div class="hero boxes">
+          <div class="box box3_1">
+            <h1>73%</h1>
+            <p>of aspiring homeowners are turned away due to inability to afford a down payment</p>
+          </div>
+          <div class="box box3_2">
+            <h1>78%</h1>
+            <p>of the Gen Z population received outside financial assistance for their home purchase</p>
+          </div>
+          <div class="box box3_3">
+            <h1>200%</h1>
+            <p>rate at which median housing prices outpaced income growth over the past 37 years</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section id="cal">
+    <div class="hero">
+      <h1>Define your goals, create a tailored plan</h1>
+    </div>
+    <div class="content">
+      <div class="boxes">
+        <div class="box left-box">
+          <h2>MortgEdge Calculator</h2>
+        </div>
+        <div class="box right-box">
+          <h3>Begin Saving for Your <span id="down-copy">$45,192</span> Down Payment & Closing Costs</h3>
+        </div>
+      </div>
+
+
+      <div class="boxes">
+        <div class="box left-box">
+          <div>
+            <div><span>Home Price</span></div>
+            <div><input id="homeprice" value="420000" /></div>
+          </div>
+          <div>
+            <div><span>Down Payment</span></div>
+            <div>
+              <input id="downpayment" value="33600" />
+              <input id="downpercent" placeholder="8%" value="8%" /> 
+            </div>
+          </div>
+          <div>
+            <div><span>Closing Costs</span></div>
+            <div>
+              <input id="close-cost" value="11592" />
+              <input id="close-percent" value="3%" /> 
+            </div>
+          </div>
+          <div>
+            <div>
+              <span>Loan Term</span>
+            </div>
+            <div>
+              <select id="terms">
+                <option value="30">30 Years</option>
+                <option value="15">15 Years</option>
+                <option value="10">10 Years</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <div><span>Interest Rate</span></div>
+            <div><input id="interest-rate" value="7%" /></div>
+          </div>
+          <div>
+            <div><span>Zip Code</span></div>
+            <div><input id="zip" value="10011" /></div>
+          </div>
+    
+          <div class="left-button-container">
+            <button id="cal-btn" class="medium btn sky-btn">Calculate</button>
+          </div>
+        </div>
+        <div class="right-box">
+          <div id="chart-container">
+            <h3>Estimated Monthly Payment</h3>
+            <h3 id="monthly"></h3>
+            <canvas class="chart" id="myChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      
+
+    
+    </div>    
+  </section>
+
+
+
+
+  <section id="contact">
+    <div class="hero">
+      <h1>Contact Our Team</h1>
+    </div>
+    <div>
+      <div class="boxes">
+        <div class="box left-box">
+          <input placeholder="First Name" />
+        </div>
+        <div class="box right-box">
+          <input placeholder="Last Name" />
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="box left-box">
+          <input placeholder="Email Address" />
+        </div>
+        <div class="box right-box">
+          <input placeholder="Phone Number" />
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="box left-box">
+          <input placeholder="Company Name" />
+        </div>
+        <div class="box right-box">
+          <input placeholder="Job Title" />
+        </div>
+      </div>
+      
+      <div class="boxes">
+        <select>
+          <option value="Job Function">Job Function</option>
+        </select>
+      </div>
+      <div class="button-container center">
+        <button class="small btn center navy-btn">Submit</button>
+      </div>
+      
+    </div>
+  </section>
+
+
+  
+
+</body>
+
+<script>
+
+(function() {
+   
+    const homeprice = document.getElementById('homeprice');
+    const downpayment = document.getElementById('downpayment');
+    const downpercent = document.getElementById('downpercent');
+    const downcopy = document.getElementById("down-copy");
+    const monthly = document.getElementById("monthly");
+
+    const closecost = document.getElementById('close-cost');
+    const closepercent = document.getElementById('close-percent');
+
+    const apr = document.getElementById("interest-rate");
+    const term = document.getElementById("terms");
+    const calbtn = document.getElementById("cal-btn");
+    const ctx = document.getElementById("myChart").getContext("2d");  
+
+    const calculatePayment = (amt, apr, term) => {
+      apr = parseInt(apr);
+      term = term *12;
+      apr = apr/100/12;
+      return Math.round(amt*apr * Math.pow((1 + apr), term)/(Math.pow((1 + apr), term) - 1) * 100)/100;
+    }
+
+    var myChart = undefined;
+
+    const formatUSD = x => "$" + x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    
+    const renderChart = () => {
+      monthlyPayment = calculatePayment(homeprice.value - downpayment.value, apr.value, term.value);
+
+      downcopy.innerHTML = formatUSD(parseInt(closecost.value) + parseInt(downpayment.value));
+      monthly.innerHTML = formatUSD(200 + 340 + parseInt(monthlyPayment));
+      
+      // console.log(myChar)
+      if (myChart !== undefined){
+        myChart.destroy();
+        console.log(myChart);
+      }
+      
+    
+      myChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['Principal + Interest - $' + monthlyPayment, 'Property Tax - $340', "Homeowner's insurance - $200"],
+          datasets: [{
+            label: '#',
+            data: [monthlyPayment, 340, 200],
+            backgroundColor: [
+              'rgb(155, 200, 230)',
+              'rgb(0, 65, 101)',
+              'rgb(155, 155, 155)'
+            ],
+            borderWidth: 0
+          }]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    position: "right",
+                    labels: {
+                        // This more specific font property overrides the global property
+                        font: {
+                            size: 12
+                        }
+                    }
+                }
+            },
+            layout: {
+                padding: {
+                    left: 0
+                }
+            }
+        }
+      });
+      // myChart.destroy();
+    }
+
+    renderChart();
+
+
+
+    const updateDown = () => {
+      downpayment.value = homeprice.value * (parseInt(downpercent.value)/100);
+      renderChart()
+    }
+    const updatePercent = () => {
+      downpercent.value = Math.round(downpayment.value/homeprice.value * 10000)/100 + "%";
+      renderChart()
+    }
+
+    homeprice.addEventListener("change", updateDown);
+    downpercent.addEventListener("change", updateDown);
+    downpayment.addEventListener("change", updatePercent);
+    calbtn.addEventListener("click", renderChart);
+
+    closecost.addEventListener("change", () => {
+      closepercent.value = Math.round(closecost.value / homeprice.value  * 10000)/100 + "%";
+      renderChart()
+    });
+    closepercent.addEventListener("change", () => {
+      closecost.value = Math.round(homeprice.value * (parseInt(closepercent.value)/100));
+      renderChart()
+    });
+
+
+
+
+})();
+
+
+
+
+</script>
+
+</html>

@@ -1,0 +1,1042 @@
+body {
+    margin: 0;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family: 'Roboto Condensed', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-family: 'Akshar', sans-serif; */
+    color: #004165;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #004165;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#seed .highlight{
+    font-size: 50px;
+    color: lightskyblue;
+    margin: 30px 0 0 0;
+}
+
+#seed p {
+    font-size: 40px;
+}
+
+#seed .title {
+    text-align: center;
+    position: static;
+    margin: auto;
+    font-size: 28px;
+    max-width: 500px;
+}
+
+.seed-img {
+    width: 100%;
+    z-index: -5;
+    position: relative;
+    margin-top: -100px;
+}
+
+.theme2 {
+    background-color: #004165;
+    color: #fff;
+}
+
+.theme2 .highlight {
+    color: lightskyblue;
+    margin-top: 0px;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Alatsi', sans-serif;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo .edge {
+    color: lightskyblue;
+}
+
+.navbar {
+    padding-top: 50px;
+    width: 530px;
+    /* border: 1px solid red; */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: left;
+    padding: 10px 30px;
+    margin: auto;
+    font-family: 'Akshar', sans-serif;
+    /* border: solid 1px green; */
+}
+
+#home,
+#tailored,
+#flexible,
+#pricing,
+#grow {
+    margin-top: 100px;
+}
+
+#grow .highlight {
+    color: skyblue;
+    
+}
+
+#grow h2 {
+    width: 900px;
+    text-align: center;
+    margin: 20px auto;
+    font-size: 40px;
+}
+
+#grow h3 {
+    min-height: 60px;
+    font-size: 40px
+}
+
+#grow .box {
+    background-color: #004165;
+    color: white;
+    border-radius: 30px;
+    font-size: 24px;
+    padding: 45px;
+    margin: 30px;
+    border: solid 3px skyblue;
+}
+
+#grow li {
+    text-align: left;
+    color: skyblue;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#boost .box h1 {
+    font-size: 70px;
+    text-align: center;
+}
+
+#boost h1 {
+    font-size: 65px;
+}
+#boost h2 {
+    color: skyblue;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+#boost .boxes {
+    font-size: 30px;
+}
+
+#boost .box1 {
+    flex: 2;
+    border-right: 3px solid #004165;
+    height: 320px;
+    margin-top: 60px;
+}
+
+#boost .box2 {
+    flex: 3;
+    padding-left: 10px;
+}
+
+#boost li {
+    margin-bottom: 30px;
+}
+
+#boost .box3 {
+    flex: 2;
+}
+
+#portfolio h2 {
+    color: skyblue;
+    font-size: 46px;
+    
+}
+
+#portfolio li {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#tailored {
+    background-image: url(./images/image\ 4.png);
+    height: 95vh;
+    background-size: 100%;
+    background-position-y: 100px;
+}
+
+#tailored .boxes {
+    background-color: white;
+    width: 660px;
+    margin-top: 100px;
+    border-radius: 50px;
+    padding: 20px 40px 60px 90px;
+    margin-left: -40px;
+}
+
+#tailored h2 {
+    color: skyblue;
+    font-size: 40px;
+}
+
+#tailored p {
+    font-size: 36px;
+}
+
+
+#problem {
+    height: 120vh;
+}
+
+#problem h1 {
+    font-size: 50px;
+}
+
+#problem h2 {
+    color: skyblue; 
+    font-size: 48px;
+}
+
+#problem .content {
+    margin-left: 30px;
+}
+
+#problem .highlight {
+    color: skyblue;
+}
+
+#pr66 {
+    border-radius: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: skyblue;
+    font-size: 90px;
+    padding-top: 80px;
+    padding-left: 60px;
+    padding-right: 70px;
+    padding-bottom: 60px;
+    width: 150px;
+    height: 120px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#problem .boxes {
+    width: 900px;
+    margin: 80px auto;
+}
+
+#problem .box2 {
+    flex: 4;
+    margin-top: 26px;
+    margin-left: -50px;
+    padding-top: 40px;
+    padding-left: 60px;
+    border-top: 5px solid skyblue;
+    border-bottom: 5px solid skyblue;
+    height: 180px;
+    font-size: 40px;
+}
+
+#target {
+    background-image: url(./images/target.png);
+    height: 96vh;
+    background-size: 100%;
+    background-position-y: 100px;
+    background-repeat: no-repeat;
+}
+
+#target li {
+    margin-bottom: 30px;
+}
+
+#target .highlight {
+    color: skyblue;
+}
+
+#target .boxes {
+    font-size: 38px;
+    position: absolute;
+    background-color: white;
+    width: 760px;
+    margin-top: 120px;
+    border-radius: 70px 0 0 70px;
+    padding-left: 50px;
+    right: 0;
+}
+
+#target h2 {
+    color: skyblue;
+}
+
+#works .subtitle {
+    width: 800px;
+    font-size: 38px;
+}
+
+#works .box {
+    border-radius: 20px;
+    padding: 30px 60px;
+    font-size: 30px;
+    margin: 40px;
+    text-align: center;
+}
+
+#savings h2 {
+    font-size: 34px;
+}
+
+#savings .box {
+    border-radius: 30px;
+    border: solid 3px skyblue;
+    padding: 20px;
+    font-size: 30px;
+    margin: 30px;
+}
+
+#savings p {
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#savings li {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.navy {
+    background-color: #004165;
+    color: white;
+}
+
+.sky {
+    background-color: skyblue;
+}
+
+.gray {
+    background-color: #aaa;
+}
+
+.hero.home {
+    background-color: #f0f0f0;
+    /* Light gray background */
+    color: #004165;
+    /* Navy font color */
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    /* border: solid 1px red; */
+}
+
+.hero p {
+    font-size: 34px;
+    /* margin-bottom: 30px; */
+    /* text-align: left; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 1200px;
+    /* border: solid 1px blue; */
+    line-height: 1.1;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    /* height: 65vh; */
+    /* border: solid 1px red; */
+}
+
+#home .boxes {
+    height: 75vh;
+    /* border: solid 1px red; */
+}
+
+#home h2{
+    text-align: center;
+    font-size: 34px;
+}
+
+#home p {
+    font-size: 38px;
+}
+
+#home h3 {
+    max-width: 500px;
+    font-size: 30px;
+}
+
+.box {
+    flex: 1;
+    /* Makes both boxes take up equal space */
+    margin: 5px;
+    /* Adds some space between the boxes */
+
+}
+
+.left-box {
+    width: 40%;
+}
+
+.right-box h1,
+.left-box h1 {
+    font-size: 48px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    /* border: solid 1px red; */
+}
+
+.right-box p,
+.left-box p {
+    font-size: 24px;
+}
+
+.button-container {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.block-container {
+    display: block;
+}
+
+.left-button-container {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    /* Large padding for bigger buttons */
+    cursor: pointer;
+    /* Cursor changes to pointer to indicate button */
+    text-transform: uppercase;
+    /* Optional: uppercase text */
+    font-weight: bold;
+    /* Optional: bold text */
+    font-size: 16px;
+    /* Button text size */
+    /* Include padding and border in the element's total width and height */
+    /* text-align: center; */
+}
+
+.medium {
+    width: 376px;
+}
+.small {
+    width: 200px;
+}
+
+.medium-button {
+    padding: 10px 20px;
+    /* Large padding for bigger buttons */
+    margin: 0px auto 10px;
+    /* Space between the buttons */
+    cursor: pointer;
+    /* Cursor changes to pointer to indicate button */
+    text-transform: uppercase;
+    /* Optional: uppercase text */
+    font-weight: bold;
+    /* Optional: bold text */
+    font-size: 16px;
+    /* Button text size */
+    width: 40%;
+    /* Make the button fill the width of the .box */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+    text-align: center;
+}
+
+.large-button {
+    padding: 10px 20px;
+    justify-content: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    width: 50%;
+    text-align: center;
+}
+
+.left-btn {
+    justify-content: left;
+}
+
+.sky-btn {
+    background-color: skyblue;
+    color: #004165;
+    border: 3px solid skyblue;
+}
+
+.sky-btn:hover {
+    background-color: white;
+    color: #004165;
+    border: 3px solid #004165;
+}
+
+.grey-btn {
+    background-color: lightgray;
+    color: #004165;
+    border: 3px solid lightgray;
+}
+
+.grey-btn:hover {
+    background-color: #fff;
+    color: #004165;
+    border: 3px solid #004165;
+}
+
+.navy-btn {
+    background-color: #004165;
+    color: white;
+    border: 3px solid #004165;
+}
+
+.navy-btn:hover {
+    background-color: white;
+    color: #004165;
+    border: 3px solid #004165;
+}
+
+
+.full-width-button {
+    padding: 15px 20px;
+    /* Large padding for bigger buttons */
+    margin-top: 20px;
+    /* Space between the buttons */
+    cursor: pointer;
+    /* Cursor changes to pointer to indicate button */
+    text-transform: uppercase;
+    /* Optional: uppercase text */
+    font-weight: bold;
+    /* Optional: bold text */
+    font-size: 16px;
+    /* Button text size */
+    width: 85%;
+    /* Make the button fill the width of the .box */
+    box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
+    text-align: left;
+    max-width: 480px;
+}
+
+
+.full-width {
+    width: 100%;
+}
+
+.boost-img {
+    width: 80%;
+    margin-top: -60px;
+}
+
+.most-width {
+    width: 80%;
+}
+
+.invest,
+.mission,
+.tailored,
+#problem .hero,
+.target,
+.options,
+.why,
+#portfolio .hero,
+#savings .hero,
+#grow .hero,
+#pricing,
+#cal {
+    background-color: #004165;
+    color: #fff;
+}
+
+.mission h1,
+.mission a,
+.tailored a,
+#pricing h2,
+#savings h2 {
+    color: lightskyblue;
+}
+
+#difficulties {
+    height: 60vh;
+}
+
+#difficulties>.boxes {
+    height: 250px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#difficulties p {
+    padding: 20px;
+
+}
+
+#difficulties .box3_1,
+#difficulties .box3_2 {
+    border-right: solid 2px lightskyblue;
+    /* border: solid 1px red; */
+}
+
+#save {
+    background-color: #004165;
+    color: #fff;
+    height: 90vh;
+}
+
+.savings3 {
+    width: 600px;
+}
+
+
+#cal {
+    font-size: 25px;
+    height: 110vh;
+}
+
+#cal h2 {
+    color: skyblue;
+}
+
+#cal .boxes {
+    padding: 0;
+}
+
+#cal .left-box {
+    max-width: 400px;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+#cal .right-box {
+    background-color: white;
+    color: #004165;
+    text-align: center;
+    margin-left: 0;
+    width: 850px;
+    left: 530px;
+    position: absolute;
+}
+
+#cal .content {
+    padding-top: 30px;
+    padding-right: 0;
+    padding-left: 80px;
+}
+
+#cal input {
+    width: 360px;
+    height: 30px;
+    padding: 8px;
+    background: #f9f9f9;
+    border: 0px;
+    border-bottom: 1px solid darkgray;
+    color: #004165;
+    font-size: 25px;
+}
+
+
+#cal select {
+    width: 376px;
+    padding: 5px;
+    background: #f9f9f9;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    border: 0px;
+    border-bottom: 1px solid darkgray;
+    color: #004165;
+    font-size: 25px;
+}
+
+#cal #chart-container {
+    margin-left: 0;
+    padding-left: 50px;
+    height: 540px;
+    width: 800px;
+    text-align: left;
+    position:static;
+    background-color: #fff;
+    z-index: 1;
+}
+
+#cal #chart-container h3 {
+    margin-bottom: -40px;
+}
+
+#cal #monthly {
+    text-align: center;
+    margin-top: 60px;
+    width: 340px;
+}
+
+#downpayment {
+    width: 240px !important;
+}
+#downpercent {
+    width: 100px !important;
+}
+#close-cost {
+    width: 240px !important;
+}
+#close-percent {
+    width: 100px !important;
+}
+
+
+#contact .hero {
+    margin: auto;
+    text-align: center;
+}
+
+#contact {
+    height: 90vh;
+}
+
+#contact .boxes {
+    width: 800px;
+    margin: auto;
+}
+
+#contact .button-container {
+    margin-top: 30px;
+}
+
+#contact input {
+    width: 95%;
+    height: 30px;
+    padding: 8px;
+    background: #f9f9f9;
+    border: 0px;
+    border-bottom: 1px solid darkgray;
+    color: darkgray;
+    /* background-color: gainsboro; */
+}
+
+#contact select {
+    width: 790px;
+    padding: 5px;
+    background: #f9f9f9;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    border: 0px;
+    border-bottom: 1px solid darkgray;
+    color: darkgray;
+}
+
+
+
+
+#estimate .left-box {
+    padding-left: 60px;
+    padding-top: 10px;
+    color: #333;
+    background-color: lightgray;
+    max-width: 400px;
+}
+
+#estimate h2 {
+    margin-bottom: 40px;
+}
+
+#estimate h3 {
+    font-size: 30px;
+    color: #555;
+}
+
+#estimate input {
+    width: 80%;
+    height: 30px;
+    padding: 8px;
+    background: #f9f9f9;
+    border: 0px;
+    border: 1px solid darkgray;
+    margin-bottom: 20px;
+    
+}
+
+#estimate .highlight {
+    border: 3px solid skyblue;
+}
+
+#totalBalance {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: #004165;
+    margin-bottom: 30px;
+}
+
+.flex-container {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 83%;
+}
+.longhand {
+    flex-flow: wrap row;
+}
+.flex-item {
+    border: 1px solid darkgray;
+    width: 42%;
+    font-size: 1.1em;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+label {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="radio"] {
+    display: none;
+    cursor: pointer;
+}
+
+#estimate select {
+    width: 84%;
+    padding: 5px;
+    background: #f9f9f9;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    border: 0px;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: 50px;
+}
+
+.future-img {
+    width: 360px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+#simplified .highlight {
+    color: skyblue;
+    font-size: 40px;
+    margin: 30px 0 0 0;
+}
+
+#simplified p {
+    font-size: 28px;
+}
+
+#seed .box {
+    min-width: 400px;
+}
+
+#seed p {
+    max-width: 550px;
+}
+
+.fibonacci {
+    width: 100%;
+    height: 250px;
+}
+
+#invest {
+    text-align: center;
+}
+
+.invest h1,
+.invest a {
+    color: lightskyblue;
+    text-align: center;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+#options {
+    height: 100vh;
+}
+
+#options .box {
+    margin: 0px 30px;
+    background-color: skyblue;
+    border-radius: 40px;
+    padding: 30px;
+}
+
+#options p {
+    color: white;
+    padding: 30px 40px;
+    font-size: 30px;
+}
+
+#options .title {
+    width: 620px;
+    margin-top: 10px;
+    font-size: 34px;
+}
+
+#options .boxes {
+    max-width: 1100px;
+    min-height: 46vh;
+    
+    /* border: solid 1px red; */
+}
+
+#options .button-container {
+    margin-top: 20px;
+}
+
+#options .content {
+    text-align: center;
+    height: 200px;
+}
+
+#flexible {
+    height: 130vh;
+}
+
+#flexible h1 {
+    font-size: 60px;
+}
+#flexible p {
+    font-size: 30px;
+}
+#flexible .button-container {
+    margin-top: 30px;
+}
+
+#flexible h2 {
+    font-size: 40px;
+}
+
+#flexible #save-time-img {
+    border-radius: 50px;
+    background: url(./images/flexible_1.png);
+    background-repeat: no-repeat;
+    padding: 20px;
+    width: 600px;
+    height: 80%;
+    background-size: 100% auto;
+}
+
+#flexible li,
+#why li {
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+#why .boxes {
+    padding: 0;
+}
+
+#why .right-box {
+    background-color: #ddd;
+}
+
+#why .box {
+    margin: 0;
+    padding-left: 25px;
+    min-height: 60vh;
+}
+
+#need h1 {
+    font-size: 50px;
+}
+
+#need h2 {
+    text-align: center;
+    font-size: 44px;
+}
+
+#need .box {
+    max-width: 180px;
+    padding: 40px;
+}
+
+#need .note {
+    text-align: center;
+    font-size: 38px;
+}
+
+#assistance {
+    width: 80%;
+}
+
+#assistance h1 {
+    color: skyblue;
+    font-size: 70px;
+}
+
+#assistance h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+#assistance p {
+    font-size: 50px;
+}
+
+#assistance .boxes {
+    margin: 0;
+}
+
+#pricing {
+    height: 100vh;
+}
+
+#pricing h2 {
+    font-size: 36px;
+}
+
+#pricing .highlight {
+    background-color: #fff;
+    color: #004165;
+}
+
+#pricing li {
+    text-align: left;
+    font-size: 30px;
+}
+
+.jump50 {
+    margin-top: -50px;
+}

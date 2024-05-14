@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MortgEdge</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Akshar:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <a href="./"><span>Mortg</span><span class="edge">Edge</span></a>
+    </div>
+    <nav class="navbar">
+      <a href="./individuals.html">For Individuals</a>
+      <a href="./investments.html">Investments</a>
+      <a href="./business.html">For Business</a>
+      <a href="./pricing.html">Pricing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+
+  <section id="tailored">
+    <div class="hero tailored">
+      <h1>Let’s plan smarter for our future</h1>
+    </div>
+    <div class="boxes">
+      <div class="box left-box">
+        <h2>The 401(k) for Homeownership</h2>
+        <p>Affording a home does not have to be difficult. MortgEdge helps employees plan, automate, and grow their
+          savings - just like we do for our retirement</p>
+        <div class="button-container left-btn">
+          <button class="large-button navy-btn">Open Account</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="works">
+    <div class="hero center">
+      <h1>How it works</h1>
+    </div>
+    <div>
+      <h2 class="subtitle center">We make it easy to set-up your account so you can lay back and let your money go to
+        work for you</h2>
+      <div class="boxes">
+        <div class="box navy">
+          <p>Open your free account</p>
+          <hr />
+          <p>Link your bank account for recurring or one-time deposits </p>
+        </div>
+        <div class="box sky">
+          <p>Link your account to your employer</p>
+          <hr />
+          <p>Link your account to your employer for a contribution match</p>
+        </div>
+        <div class="box gray">
+          <p>Choose how you want to invest</p>
+          <hr />
+          <p>Choose between a HY savings account or investment portfolio</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="simplified">
+    <div class="hero">
+      <h1>Simplified account management</h1>
+    </div>
+    <div class="hero">
+      <div class="boxes">
+        <div class="box left-box">
+          <h2 class="highlight">Seamless Direct Deposit</h2>
+          <p>Set up one-time or recurring contributions</p>
+
+          <h2 class="highlight">Rollovers & Transfers</h2>
+          <p>Hassle-free rollovers and transfers from other accounts</p>
+
+          <h2 class="highlight">Outside Contributions</h2>
+          <p>Allow family and friends to make contributions to your account directly with ease</p>
+
+          <h2 class="highlight">Electronic Employer Contributions</h2>
+          <p>Employers can make scheduled contributions towards your account</p>
+
+        </div>
+        <div class="box right-box">
+          <img class="future-img" src="./images/image5.png" alt="image of future" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="savings">
+    <div class="hero">
+      <h1>Savings and investment options</h1>
+      <h2>Tailor your home savings program based on your risk appetite</h2>
+    </div>
+    <div>
+      <div class="boxes">
+        <div class="box">
+          <p>High-Yield <br /> Savings Account</p>
+          <ul>
+            <li>Earn 4.50% APY</li>
+            <li>Reduce your risk</li>
+            <li>FDIC insured up to $250,000</li>
+            <li>No fee withdrawals</li>
+          </ul>
+        </div>
+        <div class="box">
+          <p>Self-Directed <br /> Investment Portfolio</p>
+          <ul>
+            <li>Choose your own investments</li>
+            <li>Grant your financial advisor access</li>
+            <li>Commission free trading</li>
+          </ul>
+        </div>
+        <div class="box">
+          <p>Guided <br /> Investment Portfolio</p>
+          <ul>
+            <li>Allow us to manage your money</li>
+            <li>0.35% annual fee</li>
+            <li>No additional underlying fees</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="estimate">
+    <div class="hero">
+        <h1>Estimate the growth of your money overtime</h1>
+    </div>
+    <div class="boxes">
+      <div class="box left-box">
+        <h2>Investment details</h2>
+        <div><span>Initial investment</span></div>
+        <div><input id="inv-amt" type="text" value="5000" /></div>
+
+
+        <div><span>Additional investment contributions</span></div>
+        <div><input id="inv-add" type="text" value="400" /></div>
+
+        <div><span>Frequency of investment contributions</span></div>
+        <div>
+          <ul class="flex-container longhand">
+            <li id="r1-container" class="flex-item highlight"><input id="radio1" type="radio" name="radio" value="12"><label for="radio1">Monthly</label></li>
+            <li id="r2-container" class="flex-item"><input id="radio2" type="radio" name="radio" value="1"><label for="radio2">Annually</label></li>
+          </ul>
+        </div>
+
+
+        <div><span>Years to grow</span></div>
+        <div><input id="inv-yr" type="text" value="7" /></div>
+        
+        <div><span>Expected rate of return</span></div>
+        <div><input id="inv-rate" type="text" value="10%" /></div>
+
+        <div><span>Compound frequency</span></div>
+        <div>
+            <select id="frequency">
+              <option value="12">Monthly</option>
+              <option value="4">Quarterly</option>
+              <option value="2">Semi-annually</option>
+              <option value="1">Annually</option>
+            </select>
+        </div>
+
+      </div>
+      <div class="box right-box">
+        <div>
+          <h3 class="center">Total Balance</h3>
+          <h4 class="center" id="totalBalance">$85,100</h4>
+        </div>
+        <div id="chart-container">
+          <canvas class="lineChart" id="myLineChart"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="contact">
+    <div class="hero">
+      <h1>Contact Our Team</h1>
+    </div>
+    <div>
+      <div class="boxes">
+        <div class="box left-box">
+          <input placeholder="First Name" />
+        </div>
+        <div class="box right-box">
+          <input placeholder="Last Name" />
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="box left-box">
+          <input placeholder="Email Address" />
+        </div>
+        <div class="box right-box">
+          <input placeholder="Phone Number" />
+        </div>
+      </div>
+      <div class="boxes">
+        <div class="box left-box">
+          <input placeholder="Company Name" />
+        </div>
+        <div class="box right-box">
+          <input placeholder="Job Title" />
+        </div>
+      </div>
+
+      <div class="boxes">
+        <select>
+          <option value="Job Function">Job Function</option>
+        </select>
+      </div>
+      <div class="button-container center">
+        <button class="small btn center navy-btn">Submit</button>
+      </div>
+
+    </div>
+  </section>
+</body>
+
+<script>
+(function() {
+
+    const investment = document.getElementById("inv-amt");
+    const addAmt = document.getElementById("inv-add");
+    const addFreqs = document.getElementsByName("add-freq");
+    const monthly = document.getElementById("radio1");
+    const annually = document.getElementById("radio2");
+    var addFreq = 12;
+    const rate = document.getElementById("inv-rate");
+    const investYear = document.getElementById("inv-yr");
+    const cmpFreq = document.getElementById("frequency");
+    const ctx = document.getElementById("myLineChart").getContext("2d");  
+    const numberFormat = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' });
+
+    const getTatalArr = (amt, rate, investYear, cmpFreq, addAmt, addFreq) => {
+      let totalArr = [];
+
+      amt = parseInt(amt);
+      rate = parseFloat(rate)/cmpFreq;
+      addAmt = parseInt(addAmt);
+      addFreq = parseInt(addFreq);
+      cmpFreq = parseInt(cmpFreq);
+
+      for (let i = 0, tmp = 0; i < investYear; i++) {
+        totalArr[i] = amt;
+        amt = amt * Math.pow(1+(rate/100), cmpFreq) + (addAmt * addFreq);
+      }
+
+      return totalArr;
+    }
+
+    var myChart = undefined;
+    const renderChart = () => {
+      let totalArr = getTatalArr(investment.value, rate.value, investYear.value, cmpFreq.value, addAmt.value, addFreq);
+      let principalArr = getTatalArr(investment.value, 0, investYear.value, cmpFreq.value, addAmt.value, addFreq);
+      
+      document.getElementById("totalBalance").innerHTML = numberFormat.format(totalArr[totalArr.length-1]);
+
+      if (myChart !== undefined){
+        myChart.destroy();
+        console.log(myChart);
+      }
+      
+      let currentYear = new Date().getFullYear();
+      let labelArr = [];
+      for (let i = 0; i < parseInt(investYear.value); i++) {
+        labelArr[i] = currentYear + i;
+      }
+    
+      myChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: labelArr,
+          datasets: [
+            {
+              label: 'Total Interest',
+              data: totalArr,
+              backgroundColor: 'rgba(155, 180, 200, 0.2)',
+              borderWidth: 2,
+              fill: true,
+              borderColor: 'rgba(155, 180, 200, 0.9)',
+              tension: 0.1
+            },
+            {
+              label: 'Principal Value',
+              data: principalArr,
+              backgroundColor: 'rgba(155, 200, 230, 0.6)',
+              borderWidth: 2,
+              fill: true,
+              borderColor: 'rgba(155, 200, 230, 0.9)',
+              tension: 0.1
+            }
+        ]
+        },
+        options: {
+            plugins: {
+                legend: {
+                    position: "bottom",
+                    labels: {
+                        font: {
+                            size: 12
+                        }
+                    }
+                }
+            },
+            scales:{
+              y:{beginAtZero: true}
+            },
+            layout: {
+                padding: {
+                    left: 0
+                }
+            }
+        }
+      });
+    }
+
+    renderChart();
+
+    const updateAddFreq = (freq) => {
+      addFreq = freq;
+      let r1 = document.getElementById("r1-container");
+      let r2 = document.getElementById("r2-container");
+      if (freq === 1) {
+        r1.style.border = "1px solid darkgray";
+        r2.style.border = "3px solid skyblue";
+      } else {
+        r1.style.border = "3px solid skyblue";
+        r2.style.border = "1px solid darkgray";
+      }
+      renderChart();
+    }
+   
+    investment.addEventListener("change", renderChart);
+    addAmt.addEventListener("change", renderChart);
+    rate.addEventListener("change", renderChart);
+    monthly.addEventListener("click", () => updateAddFreq(12));
+    annually.addEventListener("click", () => updateAddFreq(1));
+    investYear.addEventListener("change", renderChart);
+    cmpFreq.addEventListener("change", renderChart);
+
+
+})();
+
+</script>
+
+</html>
